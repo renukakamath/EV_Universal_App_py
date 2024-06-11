@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bike"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Bunkhome">
+
+
+    <Button
+        android:id="@+id/manageprofile"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="Manage Profile" />
+
+    <Button
+        android:id="@+id/viewrequest"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="View Request" />
+
+    <Button
+        android:id="@+id/sendcomplaint"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="Send Complaints" />
+
+    <Button
+        android:id="@+id/viewbestplace"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="View Best Place" />
+
+
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="Logout" />
+
+</LinearLayout>

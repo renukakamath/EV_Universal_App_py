@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.evuniversalapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Evuniversalapp"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".DeliveryViewpayment"
+            android:exported="false" />
+        <activity
+            android:name=".DeliveryViewuser"
+            android:exported="false" />
+        <activity
+            android:name=".DeliveryAddpouduct"
+            android:exported="false" />
+        <activity
+            android:name=".MechaincViewpayment"
+            android:exported="false" />
+        <activity
+            android:name=".Mechanicviewuser"
+            android:exported="false" />
+        <activity
+            android:name=".Bunkviewpayment"
+            android:exported="false" />
+        <activity
+            android:name=".Rateings"
+            android:exported="false" />
+        <activity
+            android:name=".Rateing"
+            android:exported="false" />
+        <activity
+            android:name=".Usermakepayments"
+            android:exported="false" />
+        <activity
+            android:name=".UserOrderNow"
+            android:exported="false" />
+        <activity
+            android:name=".UserViewporoduct"
+            android:exported="false" />
+        <activity
+            android:name=".UserMechanicRating"
+            android:exported="false" />
+        <activity
+            android:name=".UserRechargeRating"
+            android:exported="false" />
+        <activity
+            android:name=".UserMakePayment"
+            android:exported="false" />
+        <activity
+            android:name=".UserBookNow"
+            android:exported="false" />
+        <activity
+            android:name=".Mechanicsendcomplaint"
+            android:exported="false" />
+        <activity
+            android:name=".Mechanicviewrequest"
+            android:exported="false" />
+        <activity
+            android:name=".Mechanicmanageprofile"
+            android:exported="false" />
+        <activity
+            android:name=".Deliverysendcomplaint"
+            android:exported="false" />
+        <activity
+            android:name=".Deliveryviewrequest"
+            android:exported="false" />
+        <activity
+            android:name=".Deliverymanageprofile"
+            android:exported="false" />
+        <activity
+            android:name=".BunkSharelivelocation"
+            android:exported="false" />
+        <activity
+            android:name=".Bunkviewbestplace"
+            android:exported="false" />
+        <activity
+            android:name=".Bunksendcomplaint"
+            android:exported="false" />
+        <activity
+            android:name=".Bunkviewrequest"
+            android:exported="false" />
+        <activity
+            android:name=".Bunkmanageprofile"
+            android:exported="false" />
+        <activity
+            android:name=".UserSendcomplaint"
+            android:exported="false" />
+        <activity
+            android:name=".UserViewordereditems"
+            android:exported="false" />
+        <activity
+            android:name=".UserSearchspareparts"
+            android:exported="false" />
+        <activity
+            android:name=".UserViewrequest"
+            android:exported="false" />
+        <activity
+            android:name=".UserSearchmechanic"
+            android:exported="false" />
+        <activity
+            android:name=".UserViewrechargerequests"
+            android:exported="false" />
+        <activity
+            android:name=".UserSearchnearbunk"
+            android:exported="false" />
+        <activity
+            android:name=".UserViewbookings"
+            android:exported="false" />
+        <activity
+            android:name=".UserViewvehicle"
+            android:exported="false" />
+        <activity
+            android:name=".Userprofile"
+            android:exported="false" />
+        <activity
+            android:name=".Mechanichome"
+            android:exported="false" />
+        <activity
+            android:name=".Bunkhome"
+            android:exported="false" />
+        <activity
+            android:name=".DeliveryBoyHome"
+            android:exported="false" />
+        <activity
+            android:name=".Userhome"
+            android:exported="false" />
+        <activity
+            android:name=".Ipsettings"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sparepartsdeliveryboy"
+            android:exported="false" />
+        <activity
+            android:name=".Rechargebunk"
+            android:exported="false" />
+        <activity
+            android:name=".Userregistration"
+            android:exported="false" />
+
+        <service android:name=".LocationService" />
+
+        <activity
+            android:name=".Signuphome"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

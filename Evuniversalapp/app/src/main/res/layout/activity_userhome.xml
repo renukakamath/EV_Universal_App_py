@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bike"
+    tools:context=".Userhome">
+
+    <Button
+        android:id="@+id/userprofile"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="Profile" />
+
+    <Button
+        android:id="@+id/viewvehicle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="View Vehicle" />
+
+    <Button
+        android:id="@+id/viewbookings"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="Viewbookings" />
+
+    <Button
+        android:id="@+id/searchnearbunk"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="Search Near Bunk" />
+
+    <Button
+        android:id="@+id/Viewrechargerequests"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="View Recharge Request" />
+
+    <Button
+        android:id="@+id/searchmechanic"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="Search Mechanic" />
+
+    <Button
+        android:id="@+id/viewrequest"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="View Request" />
+
+    <Button
+        android:id="@+id/searchspareparts"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="Search Spareparts" />
+
+    <Button
+        android:id="@+id/viewordereditems"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="View Ordered Items" />
+
+    <Button
+        android:id="@+id/sendcomplaint"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="Send Complaints" />
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="Logout" />
+
+
+</LinearLayout>
